@@ -1,0 +1,1 @@
+from image_extraction.imageprocessing.image_processing import ProcessedImage
