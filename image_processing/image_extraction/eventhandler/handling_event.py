@@ -40,8 +40,10 @@ class ExtractText:
                 on_click=self.on_click,
                 on_scroll=self.on_scroll)
             self.mouse_listener.start()
+            return True
         if key == keyboard.Key.f10:
             self.mouse_listener.stop()
+            return True
 
     def on_move(self, x, y):
         '''override this method to the child class'''
