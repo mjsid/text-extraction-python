@@ -16,7 +16,7 @@ class Config:
         return config
 
     def getTesseractPath(self):
-        if self.path == None:
+        if self.path is None:
             raise Exception("Set Tesseract path first in configuration object")
 
         return self.path
